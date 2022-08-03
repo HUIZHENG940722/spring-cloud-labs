@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    #    healthcheck:
+    #      enabled: true
+    registry-fetch-interval-seconds: 5
+
+spring:
+  application:
+    name: demo1
+
+
+
